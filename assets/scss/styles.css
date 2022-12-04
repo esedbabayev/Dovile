@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headd {
+  width: 100%;
+  height: 20vh;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 18;
+}
+.headd .navb h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 3%;
+  font-size: 35px;
+  cursor: pointer;
+}
+.headd .navb .ull {
+  font-size: 22px;
+  text-transform: uppercase;
+  transition-duration: 1s;
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.headd .navb .ull li:hover {
+  text-decoration: underline;
+}
+
+.sec1 {
+  width: 100%;
+  height: 90vh;
+  background-color: #fff5f5;
+  display: flex;
+  justify-content: space-evenly;
+}
+.sec1 .text-left {
+  width: 40%;
+  height: 60vh;
+  position: relative;
+  top: 150px;
+  left: 20px;
+}
+.sec1 .text-left .hello {
+  font-size: 70px;
+}
+.sec1 .text-left .help {
+  font-size: 23px;
+}
+.sec1 .text-left .btn-cont {
+  width: 30%;
+  height: 8vh;
+  border: none;
+  background-color: rgb(69, 69, 69);
+  color: #ffffff;
+  position: relative;
+  top: 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.sec1 .text-left .btn-cont:hover {
+  background-color: rgb(31, 31, 31);
+}
+.sec1 .img-right {
+  width: 42%;
+  height: 90vh;
+}
+.sec1 .img-right img {
+  height: 90vh;
+}
+
+.sec2 {
+  width: 100%;
+  height: 20vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sec2 .same-4 {
+  font-size: 40px;
+}
+
+.sec3 {
+  background-color: #fff5f5;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec3 .abt-txt {
+  width: 46.7%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.sec3 .abt-txt h2 {
+  font-size: 50px;
+}
+.sec3 .abt-txt p {
+  font-size: 20px;
+}
+
+.sec4 {
+  width: 100%;
+  height: 70vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.sec4 .left-img {
+  background-color: cyan;
+  width: 30%;
+  height: 40vh;
+}
+.sec4 .text-right {
+  width: 40%;
+  height: 50vh;
+  position: relative;
+  top: 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sec4 .text-right h2 {
+  font-size: 70px;
+}
+.sec4 .text-right p {
+  font-size: 23px;
+}
+.sec4 .text-right .btn-read {
+  width: 30%;
+  height: 8vh;
+  border: none;
+  background-color: rgb(69, 69, 69);
+  color: #ffffff;
+  position: relative;
+  top: 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.sec4 .text-right .btn-read:hover {
+  background-color: rgb(31, 31, 31);
+}
+
+.sec5 {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff5f5;
+  margin-top: 8.2%;
+  display: flex;
+  flex-direction: column;
+}
+.sec5 .container {
+  width: 70%;
+  height: 10vh;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+}
+.sec5 .container .all {
+  display: flex;
+  justify-content: space-between;
+  gap: 140px;
+}
+.sec5 .container h2 {
+  text-align: center;
+  font-size: 53px;
+}
+.sec5 .f-wrap {
+  width: 33%;
+  height: 55vh;
+  margin: 0 auto;
+  font-size: 20px;
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+.sec5 .f-wrap p {
+  font-size: 18px !important;
+}
+.sec5 .wrap-f {
+  width: 33%;
+  height: 55vh;
+  margin: 0 auto;
+  font-size: 20px;
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+.sec5 .wrap-f p {
+  font-size: 18px !important;
+}

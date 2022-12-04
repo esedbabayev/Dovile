@@ -1,0 +1,35 @@
+.sec4{
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    
+    .left-img{
+        background-color: cyan;
+        width: 30%;
+        height: 40vh;
+    }
+    .text-right{
+        width: 40%;
+        height: 50vh;
+        position: relative;
+        top: 170px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        h2{
+            font-size: 70px;
+        }
+        p{
+            font-size: 23px;
+        }
+        .btn-read{
+            @include btn;
+        }
+        .btn-read:hover{
+            @include btn-hover;
+        }
+    }
+}

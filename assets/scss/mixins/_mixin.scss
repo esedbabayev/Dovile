@@ -1,0 +1,38 @@
+
+@mixin flex {
+    display: flex;
+}
+@mixin just-ali-cent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin btn {
+    width: 30%;
+    height: 8vh;
+    border: none;
+    background-color: rgb(69,69,69);
+    color: #ffffff;
+    position: relative;
+    top: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+@mixin btn-hover {
+    background-color: rgb(31, 31, 31);
+}
+@mixin wrap {
+    width: 33%;
+    height: 55vh;
+    margin: 0 auto;
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+@mixin p {
+    font-size: 18px !important;
+}

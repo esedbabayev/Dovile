@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './variables/_variable.scss';
+@import './extend/_extend.scss';
+@import './mixins/_mixin.scss';
+
+@import './layout/_header.scss';
+@import './home/_home.scss';
+@import './home/_sec2.scss';
+@import './home/_sec3.scss';
+@import './home/_sec4.scss';
+@import './home/_sec5.scss';
+
